@@ -7,7 +7,7 @@ body{
     height: 100vh;
     margin: auto;   
     font-family: "Roboto", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     font-style: normal;
     letter-spacing: 2px;
@@ -41,6 +41,7 @@ label{
 input{
     width: 400px;
     margin: 20px;
+    padding-bottom: 5px;
     letter-spacing: 4px;
     border-style: none;
     background-color: #ffffff00;
