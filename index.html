@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <title>Duck form</title>
 </head>
 <body>
     
-    <section class="form-section">
-        <div class="form">
-            <form action="">
-                <label for="text">Full Name</label>
-                <input type="text">
+    <form action="">
 
-                <label for="email">Your email</label>
-                <input type="email" name="emial" id="" placeholder="Your Email">
+        <div class="red-field">
 
-                <label for="text">Message regarding</label>
-                <input type="text" name="Message regarding" id="">
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name" name="full-name">
 
-                <textarea name="Message" id="message" placeholder="Your message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+
+        <label for="message-regarding">Message regardning</label>
+        <input type="text" name="message-regarding" id="message-regardning">
+
+        <label for="message">Your message</label>
+        <input type="text" name="message" id="message" placeholder="Your message">
+
+        <button type="submit">Send Message</button>
         </div>
-
-        <div class="duck">
+                
+    
+        <div class="orange-field">
             <img src="images/duck.png" alt="duck" class="image-duck">
         </div>
 
-    </section>
-
+    </form>
+    
 </body>
 </html>
