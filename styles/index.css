@@ -1,12 +1,16 @@
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #96cfcc;
-    max-width: 1500px;
-    width: 100%;
+    height: 100vh;
     margin: auto;   
-    font-family: "Poppins", serif;
+    font-family: "Roboto", serif;
     font-weight: 400;
+    font-size: 15px;
     font-style: normal;
+    letter-spacing: 2px;
   } 
 
 
@@ -14,7 +18,7 @@ form{
     display: flex;
     flex-direction: row;
     background-color: #96cfcc;
-    height: 500px;
+    min-height: 500px;
 }
 
 .red-field{
@@ -27,6 +31,38 @@ form{
     padding: 20px;
 } 
 
+label{
+    width: 400px;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+input{
+    width: 400px;
+    margin: 20px;
+    letter-spacing: 4px;
+    border-style: none;
+    background-color: #ffffff00;
+    border-bottom: solid white 1px;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color:#ffffff;
+}
+
+
+input:focus {
+    outline: none;
+    border: none;
+    border-bottom: solid white 1px;
+}
+
+#email, #message-regarding{
+    width: 200px;
+}
+
 
 .orange-field{
     background-color: #FFB039;
@@ -38,4 +74,22 @@ form{
     position: relative;
     top: 60px;
     right: 200px;   
+}
+
+button{
+    color: #ffffff;
+    background-color: #468189;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 120px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: #FFB039;
 }
