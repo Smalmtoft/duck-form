@@ -60,6 +60,10 @@ input:focus {
     border-bottom: solid white 1px;
 }
 
+input:hover{
+    background-color: #c34939;
+}
+
 #email, #message-regarding{
     width: 200px;
 }
