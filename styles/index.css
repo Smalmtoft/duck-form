@@ -4,42 +4,53 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #96cfcc;
-    height: 100vh;
-    margin: auto;   
+    min-height: 100vh;
+    margin: 20px auto;   
     font-family: "Roboto", serif;
     font-weight: 300;
     font-size: 15px;
     font-style: normal;
     letter-spacing: 2px;
-  } 
+} 
 
 
 form{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
     background-color: #96cfcc;
     min-height: 500px;
+    max-width: 90%;
 }
 
 .red-field{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 2;
     background: #be0909;
     color: #ffffff;
-    width: 550px;
+    min-width: 400px;
+    width: 500px;
+    min-height: 300px;
+    max-height: 500px;
     padding: 20px;
 } 
 
 label{
-    width: 400px;
-    margin: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px ;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
 
 input{
-    width: 400px;
+    width: 90%;
+    max-width: 600px;
     margin: 20px;
     padding-bottom: 5px;
     letter-spacing: 4px;
@@ -72,13 +83,16 @@ input:hover{
 .orange-field{
     background-color: #FFB039;
     width: 300px;
+    flex: 1;
+    min-height: 540px;
+    max-height: 540px;
 }
 
 .image-duck{
-    width: 520px;
+    width: 500px;
     position: relative;
     top: 60px;
-    right: 200px;   
+    right: 180px;   
 }
 
 button{
